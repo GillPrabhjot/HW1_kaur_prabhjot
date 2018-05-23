@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Basic Reset*/
+/*Reset some built in browser Values*/
+
+ p, body, header, footer, section, h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*HTML Selectors*/
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+
+	background-color: #cccccc;
+}
+
+
+#mainHeader
+{
+	height: 490px;
+	width: 980px;
+	overflow: hidden; /*prevent collapsing/clear floats*/
+}
+
+
+/* header text styles in mainHeader */
+
+header h1 {
+	color: #ffffff;
+	font-size: 31px;
+	text-align: center;
+	margin-top: 410px;
+	
+	letter-spacing: -1px;
+}
+header h2 {
+	color: #ffffff;
+	font-size: 31px;
+	text-align: center;
+	margin-top: 410px;
+	letter-spacing: -1px;
+}
+
+header h3 {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	font-weight:normal;
+}
+
+/* p styling for paragraph*/
+
+ p
+{
+	margin-top: 20px;
+	line-height: 22px;
+	color: #666;
+	font-size: 16px;
+}
+
+
+#mainFooter
+{
+	height: 124px;
+	width: 980px;
+	
+}
+
+
+
+
